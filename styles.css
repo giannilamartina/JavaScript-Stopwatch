@@ -15,13 +15,13 @@ border-radius: $radius;
 }
 
 body {
-background: orange;
+background: white;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 height:100%;
 }
 
 .wrapper {
-width: 800px;
+width: 50%;
 margin: 30px auto;
 color: black;
 text-align:center;
@@ -39,7 +39,6 @@ h1, h2, h3 {
 }
 
 button{
-  background: orange;
   color: black;
   border: solid 1px black;
   text-decoration:none;
@@ -48,4 +47,14 @@ button{
   padding:18px 10px;
   width:180px;
   margin: 10px;
+}
+
+#button-start {
+  background: green;
+}
+#button-stop {
+  background: red;
+}
+#button-reset {
+  background: yellow;
 }
